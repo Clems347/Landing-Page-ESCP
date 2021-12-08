@@ -1,0 +1,698 @@
+a,
+b,
+body,
+div,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+img,
+p,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+}
+footer,
+header,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+body {
+  background: #071436;
+  color: #e7ebf7;
+  font-family: Ubuntu, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.wrap {
+  margin: 0 auto;
+  width: 100%;
+}
+a {
+  color: #e7ebf7;
+  text-decoration: none;
+}
+#filter {
+  margin-top: 2rem;
+}
+#dogsitter {
+  background: #e7ebf7;
+  color: #071436;
+  display: none;
+  height: 60px;
+  padding: 8px 0;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+#cover {
+  align-items: center;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 630px;
+  padding: 40px 0;
+  transition: all 0.3s;
+  z-index: 1;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1494947665470-20322015e3a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+}
+#cover .image-wrapper {
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+#cover .image-wrapper .filter {
+  background: rgba(31, 51, 101, 0.6);
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+#cover .wrap {
+  position: relative;
+  z-index: 1;
+}
+header {
+  align-self: flex-start;
+  font-size: 0.85em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 40px;
+  transition: background 0.3s, box-shadow 0.3s;
+  width: 100%;
+  z-index: 25;
+}
+header section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  width: 530px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#content {
+  background: #071436;
+  min-height: 600px;
+  padding: 50px 0 100px 0;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+}
+#content h1,
+#content h2 {
+  border-bottom: 3px solid #048dc3;
+  font-size: 2.3em;
+  line-height: 1.5em;
+  text-transform: uppercase;
+}
+#content h2 {
+  margin-top: 0;
+}
+#content .wrap:nth-child(1) {
+  margin-bottom: 0;
+}
+footer {
+  background: #272727;
+  border-top: 1px solid #1b4371;
+  line-height: 1.1em;
+  padding: 30px 0 1px 0;
+  position: relative;
+  z-index: 1;
+}
+footer h2 {
+  width: auto !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+.landing-page {
+  background: #061636;
+  color: #fff;
+}
+.landing-page #navHeader a {
+  font-size: 18px;
+  text-decoration: underline;
+}
+.landing-page #navHeader a:hover {
+  text-decoration: underline;
+  font-weight: 700;
+}
+.landing-page #content .buttons,
+.landing-page #cover .buttons {
+  background: #1a77f2;
+  color: #fff;
+  border: 1.5px solid #1a77f2;
+  border-radius: 32px;
+  font-family: Poppins-Regular, sans-serif;
+  font-size: 0.95rem;
+  margin-top: 2rem;
+  text-transform: none;
+  padding: 1rem 2.5rem;
+  display: flex;
+  width: fit-content;
+  width: -moz-fit-content;
+  min-height: 10px;
+  height: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+.landing-page #content .buttons:hover,
+.landing-page #cover .buttons:hover {
+  background: #fff;
+  color: #1a77f2;
+}
+.landing-page header {
+  margin-top: 1.85rem;
+}
+.landing-page header section {
+  justify-content: space-around;
+}
+.landing-page #cover {
+  overflow: hidden;
+  height: 700px;
+}
+.landing-page #cover #homeCoverContent {
+  font-family: Poppins-Medium, sans-serif;
+  margin-top: 6.25rem;
+}
+.landing-page #cover #homeCoverContent h1 {
+  margin-bottom: 0.9rem;
+  font-size: 1.85rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+}
+.landing-page #cover .cover-shape-bottom {
+  bottom: -1px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  direction: ltr;
+}
+.landing-page #cover .cover-shape-bottom svg {
+  display: block;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: calc(110% + 1.3px);
+  height: 12rem;
+}
+.landing-page #cover .cover-shape-bottom svg .cover-shape-fill {
+  fill: #061636;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0);
+}
+.landing-page #content {
+  font-family: Poppins-Regular, sans-serif;
+  margin: 2rem 0 0 0;
+  padding: 0;
+}
+.landing-page #content #homeContent {
+  width: 100%;
+  background-color: #fff;
+}
+.landing-page #content #homeContent .wrap {
+  width: 100%;
+  max-width: 1000px;
+  padding: 2.75rem 0;
+}
+.landing-page #content #homeContent .wrap section h2 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  line-height: 1.73;
+}
+.landing-page #content #homeContent .wrap section h3 {
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.33;
+}
+.landing-page #content #homeContent .wrap section .header-section h3,
+.landing-page #content #homeContent .wrap section .testimonials-heading h3,
+.landing-page #content #homeContent .wrap section > h3 {
+  margin-top: 0.95rem;
+}
+.landing-page #content #homeContent #presentation {
+  background-color: #061636;
+  color: #fff;
+}
+.landing-page #content #homeContent #presentation .wrap section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing-page
+  #content
+  #homeContent
+  #presentation
+  .wrap
+  section
+  .creation-image-block {
+  width: 411px;
+  margin-right: 10%;
+}
+.landing-page
+  #content
+  #homeContent
+  #presentation
+  .wrap
+  section
+  .creation-description-block {
+  width: 50%;
+}
+.landing-page
+  #content
+  #homeContent
+  #presentation
+  .wrap
+  section
+  .creation-description-block
+  h2 {
+  line-height: 1.4;
+  margin-bottom: 0.6rem;
+  width: auto !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.landing-page
+  #content
+  #homeContent
+  #presentation
+  .wrap
+  section
+  .creation-description-block
+  p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+  line-height: 1.5rem;
+}
+.landing-page
+  #content
+  #homeContent
+  #presentation
+  .wrap
+  section
+  .creation-description-block
+  a.buttons {
+  background-color: #1a77f2;
+  border: 1.5px solid #1a77f2;
+  color: #fff;
+  padding: 0.9rem 3.1rem;
+}
+.landing-page
+  #content
+  #homeContent
+  #presentation
+  .wrap
+  section
+  .creation-description-block
+  a.buttons:hover {
+  background-color: #fff;
+  color: #1a77f2;
+}
+.landing-page #content #homeContent #ourTeam {
+  background-color: #061636;
+  color: #fff;
+}
+.landing-page #content #homeContent #ourTeam .overlay {
+  position: absolute;
+  left: -6rem;
+}
+.landing-page #content #homeContent #ourTeam .wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 2.75rem 0 5rem 0;
+  max-width: 1000px;
+}
+.landing-page #content #homeContent #ourTeam .wrap section {
+  z-index: 2;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourTeam
+  .wrap
+  section
+  .testimonials-heading {
+  text-align: center;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourTeam
+  .wrap
+  section
+  .testimonials-heading:not(:first-child) {
+  margin-top: 5.3rem;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourTeam
+  .wrap
+  section
+  .testimonials-heading
+  h3 {
+  line-height: 1.73;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.96);
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.landing-page #content #homeContent #ourTeam #membersBlock {
+  display: flex;
+  margin-top: 3.4rem;
+  align-items: center;
+  height: fit-content;
+  justify-content: center;
+  text-align: center;
+}
+.landing-page #content #homeContent #ourTeam #membersBlock .carousel-content {
+  display: flex;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourTeam
+  #membersBlock
+  .carousel-content
+  img {
+  height: 150px;
+}
+.landing-page #content #homeContent #testimonials {
+  background-color: #fff;
+  color: #061636;
+}
+.landing-page #content #homeContent #testimonials section h2,
+.landing-page #content #homeContent #testimonials section h3 {
+  text-align: center;
+}
+.landing-page #content #homeContent #testimonials section h3 {
+  width: 62%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.73;
+}
+.landing-page
+  #content
+  #homeContent
+  #testimonials
+  section
+  .testimonials-content-container {
+  display: flex;
+  text-align: center;
+  margin-top: 3.1rem;
+  justify-content: center;
+  align-items: baseline;
+}
+.landing-page
+  #content
+  #homeContent
+  #testimonials
+  section
+  .testimonials-content-container
+  div {
+  text-align: center;
+  width: calc(25% - 35px);
+  margin-right: 2.2rem;
+}
+.landing-page
+  #content
+  #homeContent
+  #testimonials
+  section
+  .testimonials-content-container
+  div
+  h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  margin-top: 0.9rem;
+  margin-bottom: 1.25rem;
+}
+.landing-page
+  #content
+  #homeContent
+  #testimonials
+  section
+  .testimonials-content-container
+  div
+  p {
+  font-size: 0.85rem;
+  font-weight: 400;
+  line-height: 1.79;
+  text-align: center;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.landing-page
+  #content
+  #homeContent
+  #testimonials
+  section
+  .testimonials-content-container
+  h4 {
+  color: #061636;
+}
+.landing-page #content #homeContent #ourSolution {
+  background-color: #fff;
+  color: #061636;
+}
+.landing-page #content #homeContent #ourSolution .wrap section h2 {
+  margin-bottom: 1.85rem;
+  text-align: center;
+  width: 530px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourSolution
+  .wrap
+  section
+  .oursolution-container {
+  display: flex;
+  align-items: center;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourSolution
+  .wrap
+  section
+  .oursolution-container
+  .oursolution-description-text {
+  text-align: left;
+  font-size: 0.85rem;
+  line-height: 1.79;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourSolution
+  .wrap
+  section
+  .oursolution-container
+  .oursolution-description-text
+  b {
+  font-weight: 700;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourSolution
+  .wrap
+  section
+  .oursolution-container
+  .oursolution-description-text
+  p {
+  font-size: 0.85rem;
+  line-height: 1.79;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourSolution
+  .wrap
+  section
+  .oursolution-container
+  .oursolution-description-text
+  h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 2.22;
+  text-align: left;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourSolution
+  .wrap
+  section
+  .oursolution-container
+  .benefits-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 1rem;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourSolution
+  .wrap
+  section
+  .oursolution-container
+  .benefits-container
+  .benefit-item {
+  text-align: center;
+  width: 25%;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourSolution
+  .wrap
+  section
+  .oursolution-container
+  .benefits-container
+  .benefit-item
+  img {
+  margin-bottom: 0.9rem;
+  width: 6rem;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourSolution
+  .wrap
+  section
+  .oursolution-container
+  .benefits-container
+  .benefit-item
+  p {
+  font-size: 0.9rem;
+  line-height: 1.87;
+  text-align: center;
+  color: #061636;
+  margin-right: auto;
+  margin-left: auto;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourSolution
+  .wrap
+  section
+  .oursolution-container
+  .benefits-container
+  .benefit-item
+  p
+  b {
+  font-weight: 700;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourSolution
+  .wrap
+  section
+  .oursolution-container
+  .benefits-container
+  .benefit-item:first-child
+  p {
+  width: 15rem;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourSolution
+  .wrap
+  section
+  .oursolution-container
+  .benefits-container
+  .benefit-item:nth-child(2)
+  p {
+  width: 14rem;
+}
+.landing-page
+  #content
+  #homeContent
+  #ourSolution
+  .wrap
+  section
+  .oursolution-container
+  .benefits-container
+  .benefit-item:nth-child(2n + 1):not(:first-child)
+  p {
+  width: 8rem;
+}
+.landing-page #content #homeContent #ourSolution .wrap section .block-image {
+  width: 335px;
+  height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
