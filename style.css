@@ -167,7 +167,7 @@ h2 {
   margin-bottom: 0;
 }
 footer {
-  border-top: 1px solid #1b4371;
+  border-top: 1px solid #071436;
   line-height: 1.1em;
   padding: 13px 0 1px 0;
   position: relative;
@@ -181,12 +181,11 @@ footer h2 {
   margin-bottom: 1rem;
 }
 .landing-page {
-  background: #061636;
+  background: #071436;
   color: #fff;
 }
 .landing-page #navHeader a {
-  font-size: 18px;
-  text-decoration: underline;
+  font-size: 15px;
 }
 .landing-page #navHeader a:hover {
   text-decoration: underline;
@@ -258,7 +257,7 @@ footer h2 {
   height: 12rem;
 }
 .landing-page #cover .cover-shape-bottom svg .cover-shape-fill {
-  fill: #061636;
+  fill: #071436;
   -webkit-transform-origin: center;
   -ms-transform-origin: center;
   transform-origin: center;
@@ -295,7 +294,7 @@ footer h2 {
   margin-top: 0.95rem;
 }
 .landing-page #content #homeContent #presentation {
-  background-color: #061636;
+  background-color: #071436;
   color: #fff;
 }
 .landing-page #content #homeContent #presentation .wrap section {
@@ -376,7 +375,7 @@ footer h2 {
   color: #1a77f2;
 }
 .landing-page #content #homeContent #ourTeam {
-  background-color: #061636;
+  background-color: #071436;
   color: #fff;
 }
 .landing-page #content #homeContent #ourTeam .overlay {
@@ -456,7 +455,7 @@ footer h2 {
   }
 .landing-page #content #homeContent #testimonials {
   background-color: #fff;
-  color: #061636;
+  color: #071436;
 }
 .landing-page #content #homeContent #testimonials section h2,
 .landing-page #content #homeContent #testimonials section h3 {
@@ -529,11 +528,11 @@ footer h2 {
   section
   .testimonials-content-container
   h4 {
-  color: #061636;
+  color: #071436;
 }
 .landing-page #content #homeContent #ourSolution {
   background-color: #fff;
-  color: #061636;
+  color: #071436;
 }
 .landing-page #content #homeContent #ourSolution .wrap section h2 {
   margin-bottom: 1.85rem;
@@ -655,7 +654,7 @@ footer h2 {
   font-size: 0.9rem;
   line-height: 1.87;
   text-align: center;
-  color: #061636;
+  color: #071436;
   margin-right: auto;
   margin-left: auto;
 }
