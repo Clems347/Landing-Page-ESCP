@@ -600,7 +600,7 @@ footer h2 {
   .oursolution-container
   .oursolution-description-text
   h3 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 200;
   line-height: 2.22;
   text-align: left;
@@ -684,7 +684,7 @@ footer h2 {
   margin-left: 50px;
 }
 .landing-page #content #homeContent #ourSolution .wrap section .block-image img {
-  width: 500px;
+  width: 420px;
 }
 <style>
   #formSearch {
