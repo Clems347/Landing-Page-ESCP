@@ -453,7 +453,8 @@ footer h2 {
   #membersBlock
   .carousel-content .text-member {
     margin-top: 10px;
-    font-size: 0.85rem
+    font-size: 0.85rem;
+    line-height: 1.79
   }
 .landing-page #content #homeContent #testimonials {
   background-color: #fff;
@@ -588,7 +589,7 @@ footer h2 {
   .oursolution-description-text
   p {
   font-size: 0.85rem;
-  line-height: 1.79;
+  line-height: 1;
 }
 .landing-page
   #content
@@ -599,8 +600,8 @@ footer h2 {
   .oursolution-container
   .oursolution-description-text
   h3 {
-  font-size: 1.1rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 200;
   line-height: 2.22;
   text-align: left;
 }
@@ -642,6 +643,7 @@ footer h2 {
   margin-bottom: 0.9rem;
   width: 6rem;
   height: 5rem;
+  margin-top: 3rem
 }
 .landing-page
   #content
